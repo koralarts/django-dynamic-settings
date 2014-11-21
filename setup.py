@@ -11,7 +11,7 @@ using the Django admin dashboard.
 """
 
 setup = (
-    name='django-dynamic-setting',
+    name='django-dynamic-settings',
     version=VERSION,
     url='https://github.com/koralarts/django-dynamic-settings',
     license='MIT',
