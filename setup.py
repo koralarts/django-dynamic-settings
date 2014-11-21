@@ -10,7 +10,7 @@ Django Dynamic Setting is a small module that allows you to create settings that
 using the Django admin dashboard.
 """
 
-setup = (
+setup(
     name='django-dynamic-settings',
     version=VERSION,
     url='https://github.com/koralarts/django-dynamic-settings',
