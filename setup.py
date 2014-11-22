@@ -28,6 +28,6 @@ setup(
     ],
     keywords="django,settings",
     zip_safe=False,
-    package=find_packages(),
+    packages=find_packages(),
     include_package_data=True
 )
