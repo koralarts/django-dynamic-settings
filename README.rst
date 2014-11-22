@@ -2,11 +2,15 @@ django-dynamic-settings
 =======================
 
 ## Installation
+
 Install via `Pip`:
+
 ```
 $ pip install git+https://github.com/koralarts/django-dynamic-settings
 ```
+
 Add module to `Installed Apps`:
+
 ```
 INSTALLED_APPS = (
 	...
@@ -14,7 +18,9 @@ INSTALLED_APPS = (
 	...
 )
 ```
+
 ## Migrate
+
 ```
 $ ./manage migrate dynamic_setting
 ```
