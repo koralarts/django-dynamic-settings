@@ -14,7 +14,7 @@ setup(
     name='django-dynamic-settings',
     version=VERSION,
     url='https://github.com/koralarts/django-dynamic-settings',
-    download_url='https://github.com/koralarts/django-dynamic-settings/tarball/1.0',
+    download_url='https://github.com/koralarts/django-dynamic-settings/tarball/1.0.tar.gz',
     description='Small module that allows you to generate dynamic settings that can be edited inside the Django admin dashboard',
     long_description=LONG_DESCRIPTION,
     author='Karl Castillo',
@@ -37,6 +37,6 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Site Management'
     ],
     keywords=['django','settings','utility'],
-    packages=['django-dynamic-settings'],
+    packages=['dynamic_setting'],
     include_package_data=True
 )
