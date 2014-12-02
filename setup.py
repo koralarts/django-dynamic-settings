@@ -21,6 +21,7 @@ setup(
     author_email='karl@karlworks.com',
     maintainer='Karl Castillo',
     maintainer_email='karl@karlworks.com',
+    include_package_data=True,
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
@@ -37,6 +38,5 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Site Management'
     ],
     keywords=['django','settings','utility'],
-    packages=['dynamic_setting'],
-    include_package_data=True
+    packages=find_packages(),
 )

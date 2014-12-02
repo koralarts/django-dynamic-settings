@@ -24,3 +24,19 @@ INSTALLED_APPS = (
 ```
 $ ./manage migrate dynamic_setting
 ```
+
+## Usage
+
+### Inside Python:
+```
+import dynamic_setting.models import Setting
+
+Setting.objects.setting('NAME_OF_SETTING')
+```
+
+### Inside Template:
+```
+{% load dynamic_setting %}
+
+{% get_setting 'NAME_OF_SETTING' %}
+```
