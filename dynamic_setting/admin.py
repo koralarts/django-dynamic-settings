@@ -1,5 +1,4 @@
 from django.contrib import admin
-
 from dynamic_setting.models import Setting
 
 class SettingAdmin(admin.ModelAdmin):

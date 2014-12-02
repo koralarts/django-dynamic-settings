@@ -25,15 +25,18 @@ INSTALLED_APPS = (
 $ ./manage migrate dynamic_setting
 ```
 
-## Getting a Setting
+## Usage
+
+### Inside Python:
 ```
-from dynamic_setting.models import Setting
+import dynamic_setting.models import Setting
 
-setting_obj = Setting.objects.get_setting('TEST_SETTING')
+Setting.objects.setting('NAME_OF_SETTING')
+```
 
-# Print the name of the Setting:
-print(setting_obj.name)
+### Inside Template:
+```
+{% load dynamic_setting %}
 
-# Print the value of the Setting:
-print(setting_obj.value)
+{% get_setting 'NAME_OF_SETTING' %}
 ```
