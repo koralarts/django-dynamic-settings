@@ -31,7 +31,13 @@ $ ./manage migrate dynamic_setting
 ```
 import dynamic_setting.models import Setting
 
-Setting.objects.setting('NAME_OF_SETTING')
+setting = Setting.objects.setting('NAME_OF_SETTING')
+
+# Get the name of the setting object:
+setting.name
+
+# Get the data of the setting object:
+setting.data
 ```
 
 ### Inside Template:
