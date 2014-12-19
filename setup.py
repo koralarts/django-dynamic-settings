@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "1.1.0"
+VERSION = "1.1.1"
 
 LONG_DESCRIPTION = """
 =================================
@@ -14,7 +14,7 @@ setup(
     name='django-dynamic-settings',
     version=VERSION,
     url='https://github.com/koralarts/django-dynamic-settings',
-    download_url='https://github.com/koralarts/django-dynamic-settings/tarball/1.0.tar.gz',
+    download_url='https://github.com/koralarts/django-dynamic-settings/tarball/v1.1.1.tar.gz',
     description='Small module that allows you to generate dynamic settings that can be edited inside the Django admin dashboard',
     long_description=LONG_DESCRIPTION,
     author='Karl Castillo',
@@ -27,13 +27,9 @@ setup(
         'Framework :: Django',
         'License :: OSI Approved :: MIT',
         'Programming Language :: Python',
+        'Programming Language :: Python :: 2.7'
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.0',
-        'Programming Language :: Python :: 3.1',
-        'Programming Language :: Python :: 3.2',
-        'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3 :: Only',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Internet :: WWW/HTTP :: Site Management'
     ],
