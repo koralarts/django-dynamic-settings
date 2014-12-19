@@ -44,7 +44,7 @@ setting.data
 
 ### Inside Template:
 ```
-{% load dynamic_setting %}
+{% load dynamic_setting_tag %}
 
 {% get_setting 'NAME_OF_SETTING' %}
 ```
