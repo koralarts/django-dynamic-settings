@@ -1,6 +1,6 @@
+from django.template import Context, Template
 from django.test import TestCase
 from dynamic_setting.models import Setting
-from dynamic_setting.templatetags.dynamic_setting import get_setting
 
 
 class GetSettingTestCase(TestCase):
@@ -12,4 +12,9 @@ class GetSettingTestCase(TestCase):
         name = 'TEST_SETTING'
         data = 'Test data'
         self._create_setting(name, data)
-        self.assertEqual(get_setting(name), data)
+        template = Template(
+            '{% load dynamic_setting_tags %}'
+            '{% get_setting setting_name %}'
+        )
+        context = Context({'setting_name': name})
+        self.assertEqual(template.render(context), data)

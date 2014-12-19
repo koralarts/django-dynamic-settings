@@ -1,5 +1,5 @@
 from django import template
-from dynamic_setting.models import Setting
+from ..models import Setting
 
 register = template.Library()
 
