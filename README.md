@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/koralarts/django-dynamic-settings.svg)](https://travis-ci.org/koralarts/django-dynamic-settings)
+
 django-dynamic-settings
 =======================
 
