@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/koralarts/django-dynamic-settings.svg)](https://travis-ci.org/koralarts/django-dynamic-settings)
+[![Build Status](https://travis-ci.org/koralarts/django-dynamic-settings.svg)](https://travis-ci.org/koralarts/django-dynamic-settings) [![CocoaPods](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)]()
 
 django-dynamic-settings
 =======================
