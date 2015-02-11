@@ -9,7 +9,7 @@ django-dynamic-settings
 Install via `Pip`:
 
 ```
-$ pip install git+https://github.com/koralarts/django-dynamic-settings
+$ pip install django-dynamic-settings
 ```
 
 Add module to `Installed Apps`:
